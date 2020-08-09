@@ -22,7 +22,7 @@ section {
 
 header a {
     font-family: var(--Rubik);
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: bolder;
     color: black;
 }
@@ -282,4 +282,80 @@ header .container .col-md-7 button {
     border-radius: 3em;
     padding: 2vmin 4.5vmin;
     margin: 1em;
+}
+
+.section-3 .desktop h3 {
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+    font-size: 2vmin;
+}
+
+
+/*section-4*/
+
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    width: 22em;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card .card-body>a {
+    font-size: 0.99em;
+}
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340%;
+    width: 60%;
+}
+
+
+/*footer*/
+
+footer {
+    background: rgb(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ff8c00;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #ff8c00;
+}
+
+footer .column i+i {
+    padding: 0 0.5em;
 }
