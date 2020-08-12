@@ -162,7 +162,7 @@ header .container .col-md-7 button {
     height: 55vmin;
     background: url("../img/banner.PNG");
     background-position: -24rem -19rem;
-    background-size: 50%;
+    background-size: 100%;
     position: relative;
 }
 
